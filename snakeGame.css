@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333; 
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+.score p {
+    padding: 20px 0;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 530px;
+    height: 530px;
+    padding: 25px;
+    background-color: whitesmoke;
+    border: gray 2px solid;
+    border-radius: 10px;
+}
+.play {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 0 25px 5px rgba(154, 160, 172, 0.25);
+    background-color: orange;
+    border-radius: 10px;
+    position: relative;
+}
+#lose {
+    display: none;
+    color: #fff; 
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Espace au-dessus du bouton */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+button:active{
+    transform: scale(0.98);
+}
