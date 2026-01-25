@@ -1,16 +1,22 @@
-Snake Game
-Welcome to the Snake Game! 🎮 This is a simple implementation of the classic Snake game using HTML, CSS, and JavaScript. The goal of the game is to control the snake to eat the food, grow longer, and avoid collisions with the walls or itself.
+# 🐍 Snake Game
 
-Features
+Un **jeu de serpent classique** développé avec **HTML, CSS et JavaScript**, où vous devez manger la nourriture pour grandir et éviter de vous heurter aux murs ou à vous-même.
 
-Snake Movement: Use the arrow keys to control the direction of the snake.
-Food Generation: Food appears at random positions on the game board and does not overlap with the snake.
-Growing Snake: Each time the snake eats food, it grows longer.
-Game Over: The game ends if the snake collides with itself or the walls.
+---
 
-How to Play
+## 📌 Description
 
-Start the Game: Click the "Start" button to begin playing.
-Control the Snake: Use the arrow keys on your keyboard to navigate the snake.
-Eat the Food: Move the snake to the food to increase your score and grow the snake.
-Avoid Collisions: Do not let the snake collide with the walls or itself.
+Ce projet est une **version web du jeu Snake**.  
+Le joueur contrôle le serpent à l’aide des **flèches du clavier**, doit manger la nourriture rouge pour **augmenter le score et la taille du serpent**, tout en **évitable de collision avec les murs ou son propre corps**.  
+
+Le score est affiché en temps réel et le jeu affiche **"Game Over"** lorsqu’on perd, avec la possibilité de **rejouer**.
+
+---
+
+## 🛠️ Technologies utilisées
+
+- **HTML5** – Structure du jeu  
+- **CSS3** – Mise en forme, design et animations  
+- **JavaScript (jQuery)** – Logique du jeu et gestion des mouvements  
+
+---
